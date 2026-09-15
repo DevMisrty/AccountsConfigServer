@@ -16,3 +16,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+#MANAGEMENT ENDPOINTS, allow the refresh endpoint to be called, so that we can refresh the configuration at runtime.
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
+
+message: This is an simple config file for the loans service- production.
