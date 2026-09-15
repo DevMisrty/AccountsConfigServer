@@ -15,4 +15,12 @@
     properties:
       hibernate:
         format_sql: true
+
+#MANAGEMENT ENDPOINTS, allow the refresh endpoint to be called, so that we can refresh the configuration at runtime.
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
+
 message: This is an Simple Application properties file for the account service.
