@@ -3,7 +3,7 @@
     name: accounts
 
   datasource:
-    url: jdbc:mysql://localhost:3306/accountsdb
+    url: "{cipher}3c7e1e9b232a0745458cb42a77d5c55dfe13aa01506dfb98a0340b7889a4fe23176c01be530bb15e29a36894e6d83ee99236a36666720a62b3906bb85aadc52b"
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
